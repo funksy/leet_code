@@ -1,3 +1,5 @@
+from collections import deque
+
 def lowestCommonAncestor(root, p, q):
     stack = deque([root])
     parent = {root: None}
